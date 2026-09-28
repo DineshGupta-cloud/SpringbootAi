@@ -1,0 +1,9 @@
+.account-page { display: flex; flex-direction: column; gap: 1.5rem; }
+.details-card { background: white; border-radius: 12px; padding: 0.5rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+.detail-row { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; border-bottom: 1px solid #edf2f7; }
+.detail-row:last-child { border-bottom: none; }
+.detail-row .label { font-size: 0.9rem; color: #718096; }
+.detail-row .value { font-weight: 600; color: #2d3748; }
+.detail-row .value.mono { font-family: 'Courier New', monospace; letter-spacing: 1px; }
+.detail-row .value.balance { font-size: 1.15rem; color: #2b6cb0; }
+.detail-row .value.status.active { color: #38a169; background: #c6f6d5; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.85rem; }

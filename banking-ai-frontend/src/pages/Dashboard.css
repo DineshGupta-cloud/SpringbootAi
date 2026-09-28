@@ -1,0 +1,26 @@
+.dashboard { display: flex; flex-direction: column; gap: 1.5rem; }
+.page-title { font-size: 1.5rem; color: #1a202c; }
+.page-loading, .page-error { text-align: center; padding: 3rem; color: #718096; }
+.page-error { color: #c53030; }
+.balance-card { background: linear-gradient(135deg, #2b6cb0 0%, #1e3a5f 100%); color: white; border-radius: 16px; padding: 1.75rem; display: flex; justify-content: space-between; align-items: flex-end; box-shadow: 0 8px 24px rgba(43, 108, 176, 0.3); }
+.account-type { display: block; font-size: 0.9rem; opacity: 0.85; margin-bottom: 0.25rem; }
+.account-number { font-size: 1.1rem; font-weight: 600; letter-spacing: 1px; }
+.balance-amount .label { display: block; font-size: 0.8rem; opacity: 0.8; margin-bottom: 0.25rem; }
+.balance-amount .amount { font-size: 2rem; font-weight: 700; }
+.section { background: white; border-radius: 12px; padding: 1.25rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+.section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+.section-header h2 { font-size: 1.1rem; color: #2d3748; }
+.link-more { font-size: 0.85rem; color: #3182ce; font-weight: 500; }
+.tx-row { display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 0; border-bottom: 1px solid #edf2f7; }
+.tx-row:last-child { border-bottom: none; }
+.tx-left { display: flex; flex-direction: column; gap: 0.15rem; }
+.tx-date { font-size: 0.8rem; color: #a0aec0; }
+.tx-desc { font-size: 0.95rem; color: #2d3748; }
+.tx-amount { font-weight: 600; font-size: 0.95rem; }
+.tx-amount.credit { color: #38a169; }
+.tx-amount.debit { color: #e53e3e; }
+.quick-actions { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; }
+.action-card { background: white; border-radius: 12px; padding: 1.25rem; display: flex; flex-direction: column; align-items: center; gap: 0.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.06); font-size: 0.9rem; font-weight: 500; color: #2d3748; }
+.action-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+.action-card.ai { background: linear-gradient(135deg, #48bb78, #38a169); color: white; }
+.action-icon { font-size: 1.5rem; }

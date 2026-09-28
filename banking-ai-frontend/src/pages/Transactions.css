@@ -1,0 +1,12 @@
+.transactions-page { display: flex; flex-direction: column; gap: 1.25rem; }
+.page-header-row { display: flex; justify-content: space-between; align-items: center; }
+.limit-select { padding: 0.4rem 0.75rem; border: 1.5px solid #e2e8f0; border-radius: 6px; font-size: 0.9rem; background: white; }
+.tx-table-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+.tx-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.tx-table th { text-align: left; padding: 0.85rem 1rem; background: #f7fafc; color: #718096; font-weight: 600; font-size: 0.8rem; text-transform: uppercase; }
+.tx-table td { padding: 0.85rem 1rem; border-top: 1px solid #edf2f7; color: #2d3748; }
+.badge { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600; }
+.badge.credit { background: #c6f6d5; color: #276749; }
+.badge.debit { background: #fed7d7; color: #c53030; }
+.credit { color: #38a169; font-weight: 600; }
+.debit { color: #e53e3e; font-weight: 600; }

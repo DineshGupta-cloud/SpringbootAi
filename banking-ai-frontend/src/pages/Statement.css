@@ -1,0 +1,9 @@
+.statement-page { display: flex; flex-direction: column; gap: 1.25rem; }
+.statement-form { display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-end; background: white; padding: 1.25rem; border-radius: 12px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+.date-group { display: flex; flex-direction: column; gap: 0.3rem; }
+.date-group label { font-size: 0.8rem; font-weight: 600; color: #718096; }
+.date-group input { padding: 0.5rem 0.75rem; border: 1.5px solid #e2e8f0; border-radius: 6px; font-size: 0.95rem; }
+.btn-fetch { background: #2b6cb0; color: white; border: none; padding: 0.55rem 1.25rem; border-radius: 6px; font-weight: 600; font-size: 0.9rem; }
+.btn-fetch:hover:not(:disabled) { background: #2c5282; }
+.result-count { padding: 0.75rem 1rem; font-size: 0.85rem; color: #718096; border-bottom: 1px solid #edf2f7; }
+.empty { color: #a0aec0; text-align: center; padding: 1rem; }
