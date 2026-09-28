@@ -1,0 +1,30 @@
+# Backend
+banking-ai-backend/target/
+banking-ai-backend/.mvn/
+banking-ai-backend/mvnw
+banking-ai-backend/mvnw.cmd
+*.class
+*.jar
+*.war
+*.log
+
+# Frontend
+banking-ai-frontend/node_modules/
+banking-ai-frontend/dist/
+banking-ai-frontend/.vite/
+
+# Env
+.env
+*.env.local
+application.properties
+!application.properties.example
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
